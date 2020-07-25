@@ -1,4 +1,4 @@
 # GameOfLife
-Game of Life by Conway writing in processing
+Game of Life by John Conway written in processing
 
 ![Playing example](/demo.png)
