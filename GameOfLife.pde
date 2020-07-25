@@ -1,12 +1,17 @@
-int cells = 100;
-int cellSize = 4;
-boolean[][] workingPlaces = new boolean[cells][cells];
-boolean[][] places = new boolean[cells][cells];
+int cells;
+int cellSize = 10;
+boolean[][] workingPlaces;
+boolean[][] places;
 
 boolean isPlaying = false;
 
 void setup() {
-  size(400, 400);
+  size(600, 600);
+  
+  cells = width / cellSize;
+  workingPlaces = new boolean[cells][cells];
+  places = new boolean[cells][cells];
+
   frameRate(30);
   noStroke();
   textSize(12);
